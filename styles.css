@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+font-family: Papyrus Aclonica "monotype corsiva" Georgia Verdana Helvetica Times "Times New Roman" Arial;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1.75em;
+}
+
+.box {
+    border: 1px solid black;
+    margin: 1em 1.5em;
+    background-color: #d7f7e0;
+}
+
+span {
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    padding: 0 1em;
+    color: black;
+    float: right;
+    font-size: 1.25em;
+    font-weight: 700px;
+}
+
+.sushi {
+    background-color: #E5D097;
+}
+
+.beef {
+    background-color: #C14542;
+    color: white;
+}
+
+.chicken {
+    background-color: #D49797;
+}
+
+p {
+    margin: 2.5em 1em 0.5em;
+}
+
+@media screen and (min-width: 992px) {
+
+    .container,
+    .outerbox {
+        display: flex;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .outerbox {
+        display: flex;
+    }
+}
